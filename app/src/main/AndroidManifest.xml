@@ -16,9 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".onboarding.OnBoardingActivity"
-            android:theme="@style/NoToolbar">
-        </activity>
+        <activity android:name=".view.SignupActivity"></activity>
+        <activity
+            android:name=".onboarding.OnBoardingActivity"
+            android:theme="@style/NoToolbar"></activity>
         <activity android:name=".view.BlogActivity" />
 
         <provider
@@ -40,14 +41,14 @@
         </service>
 
         <activity android:name=".view.AddNotesActivity" />
-        <activity android:name=".view.SplashActivity"
-                  android:theme="@style/NoToolbar">
+        <activity
+            android:name=".view.SplashActivity"
+            android:theme="@style/NoToolbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.LoginActivity" />
